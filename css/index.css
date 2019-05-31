@@ -28,6 +28,27 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+nav {
+    display: flex;
+    width: 800px;
+    flex-flow: row nowrap;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 25px;
+}
+header img {
+    align-self: center;
+}
 body {
 	line-height: 1;
 }
@@ -54,6 +75,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -101,16 +123,118 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+
+.box-1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box-2 {
+    width: 12.5%;
+    height: 100px;
+    background:gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-4 {
+    width: 12.5%;
+    height: 100px;
+    background:coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +267,57 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container-about-page {
+    display: flex;
+    flex-flow: row wrap;
+    width: 800px;
+    margin: 0 auto;
+}
+
+article.about {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    padding:30px 30px;
+    border-bottom: dotted black;
+
+}
+
+section.cards {
+    display: flex;
+    flex-flow: row wrap;
+    width: 800px;
+    margin-top: 30px;
+}
+
+div.card {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 45%;
+    margin: 20px 20px;
+    align-items: baseline;
+    border-bottom: dotted black;
+
+}
+
+div.card button {
+    background-color: white;
+    border-radius:10px;
+    border-style: solid;
+    border-color: black;
+    width: 33%;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top:20px;
+    
+}
+
+div.card h2 {
+    margin-top: 20px;
+}
+
+article.end-note {
+    padding: 30px 30px;
 }
