@@ -267,3 +267,54 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.container-about-page {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+article.about {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    padding:30px 30px;
+    border-bottom: dotted black;
+
+}
+
+section.cards {
+    display: flex;
+    flex-flow: row wrap;
+    width: 800px;
+    margin-top: 30px;
+}
+
+div.card {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 45%;
+    margin: 20px 20px;
+    align-items: baseline;
+    border-bottom: dotted black;
+
+}
+
+div.card button {
+    background-color: white;
+    border-radius:10px;
+    border-style: solid;
+    border-color: black;
+    width: 33%;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top:20px;
+    
+}
+
+div.card h2 {
+    margin-top: 20px;
+}
+
+article.end-note {
+    padding: 30px 30px;
+}
