@@ -32,8 +32,23 @@ footer, header, hgroup, menu, nav, section {
 header {
     display: flex;
     flex-flow: row wrap;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
-
+nav {
+    display: flex;
+    width: 800px;
+    flex-flow: row nowrap;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 25px;
+}
+header img {
+    align-self: center;
+}
 body {
 	line-height: 1;
 }
