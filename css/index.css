@@ -75,6 +75,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -271,6 +272,8 @@ footer nav a {
 .container-about-page {
     display: flex;
     flex-flow: row wrap;
+    width: 800px;
+    margin: 0 auto;
 }
 
 article.about {
